@@ -1,10 +1,10 @@
-1. ¿Qué es un servidor web? Explícalo con tus propias palabras.
-1. Diferencias entre servidor web, servidor dedicado y servidor web local.
-1. Investiga cuales son las principales características del servidor Apache.
-1. Haz una comparación entre Apache, NGINX y Tomcat. ¿Cuál consideras mejor? ¿Por qué?
-1. ¿Qué es el protocolo HTTP? ¿Y HTTP/2? ¿En que se diferencian?
-1. Explica este esquema:
+## Práctica 1. ¿Qué es un servidor web?
+### Responde con tus propias palabras las siguientes preguntas:
 
-![Imagen ejercicio](./images/EJERCICIO.PNG)
-
-1. ¿Qué servidores web tiene Windows? Explica las características de al menos dos de ellos.
+1. ¿Qué es un servidor web? ¿Cómo funciona?
+1. ¿En qué capa del modelo OSI funciona un servidor web?
+1. ¿Qué diferencias hay entre un servidor dedicado y un servidor web local?
+1. En un servidor local, ¿cuándo se puede acceder a él desde la dirección Loopback?
+1. Investiga cuales son las principales características del servidor Apache y el servidor NGINX.
+1. ¿Qué es el protocolo HTTP? ¿Y HTTP/2? 
+1. 
