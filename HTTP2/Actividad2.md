@@ -56,3 +56,5 @@ Si no sabemos la dirección IP de nuestro servidor introduciremos el siguiente c
 Y accedemos desde el navegador de la siguiente manera: *http://ip_servidor*
 
 ![Imagen 14](./images/14.PNG)
+
+[Volver a la página principal](https://extremera97.github.io/HTTP/README.md)
