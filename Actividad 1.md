@@ -5,6 +5,6 @@
 1. ¿Qué es el protocolo HTTP? ¿Y HTTP/2? ¿En que se diferencian?
 1. Explica este esquema:
 
-![Imagen ejercicio](https://extremera97.github.com/HTTP1/Images/EJERCICIO.PNG)
+![Imagen ejercicio](https://extremera97.github.io/HTTP1/Images/EJERCICIO.PNG)
 
 1.¿Qué servidores web tiene Windows? Explica las características de al menos dos de ellos.
