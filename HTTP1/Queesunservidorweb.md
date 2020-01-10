@@ -7,4 +7,4 @@
 1. En un servidor local, ¿que utilidad tiene la dirección Loopback?
 1. Investiga cuales son las principales características del servidor Apache y el servidor NGINX.
 1. ¿Qué es el protocolo HTTP? ¿Y HTTP/2? Indica las principales ventajas y desventajas de ambos. 
-   <p>En este [enlace](https://http2.akamai.com/demo) puedes ver como funcionan ambos protocolos.
+   En este [enlace](https://http2.akamai.com/demo) puedes ver como funcionan ambos protocolos.
