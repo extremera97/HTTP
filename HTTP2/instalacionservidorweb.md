@@ -10,28 +10,30 @@ El primer paso es Acceder a los **Módulos de Webmin**.
   
 ![Primera captura](./images/1.PNG)
 
-<p> Al clicar, nos aparece una pantalla que pregunta dónde queremos instalar el módulo. Nosotros elegiremos la opción de instalarlo desde un módulo estándar de www.webmin.com.
-<p> Luego pinchamos en el icono que hay señalado en la imagen a continuación.
+Al clicar, nos aparece una pantalla que pregunta dónde queremos instalar el módulo. Nosotros elegiremos la opción de instalarlo desde un módulo estándar de www.webmin.com.
+
+Luego pinchamos en el icono que hay señalado en la imagen a continuación.
   
 ![Segunda captura](./images/2.PNG)
 
-<p>Al clicar se mostrará una ventana con todos los módulos que podemos descargar, seleccionamos **Apache** y después pinchamos en **Select**.
+Al clicar se mostrará una ventana con todos los módulos que podemos descargar, seleccionamos **Apache** y después pinchamos en **Select**.
 
 ![Tercera captura](./images/3.PNG)
 
-<p> Ahora solo debemos instalar el módulo.
+Ahora solo debemos instalar el módulo.
 
 ![Cuarta captura](./images/4.PNG)
 
-<p> Ahora que ya tenemos el módulo instalado, lo siguiente que debemos hacer es instalar el paquete Apache. Para ello debemos ir al apartado *Un-used Modules*, pulsar sobre *Servidor Web Apache* y por último donde pone "Pulse aquí".
+Ahora que ya tenemos el módulo instalado, lo siguiente que debemos hacer es instalar el paquete Apache. Para ello debemos ir al apartado *Un-used Modules*, pulsar sobre *Servidor Web Apache* y por último donde pone "Pulse aquí".
   
 ![Quinta captura](./images/5.png)
 
-<p> Una vez termiando el proceso de instalación buscamos Apache en el buscador y pinchamos en él.
+Una vez termiando el proceso de instalación buscamos Apache en el buscador y pinchamos en él.
   
 ![Sexta captura] (./images/6.png)
 
-<p> El último paso es comprobar que el servidor funciona, para ello escribimos la *ip del servidor* y el *puerto 80*.
-<p> Deberá aparecer esta página si funciona correctamente.
+El último paso es comprobar que el servidor funciona, para ello escribimos la *ip del servidor* y el *puerto 80*.
+
+Deberá aparecer esta página si funciona correctamente.
   
 ![Séptima captura](./images/7.PNG)
