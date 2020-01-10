@@ -1,4 +1,4 @@
-## Instalación de un servidor web.
+## Instalación y configuración de un servidor web.
 
 Para instalar el servidor web vamos a trabajar con una máquina virtual desde Oracle VM VirtualBox. [Aquí](https://www.virtualbox.org/) encontrarás qué es VirtualBox, como descargarlo y como funciona. El sistema operativo que hemos elegido para instalarlo es Ubuntu 18.04 que encontrarás en el siguiente [enlace](http://cdimage.ubuntu.com/netboot/18.04/).
 
@@ -37,3 +37,5 @@ El último paso es comprobar que el servidor funciona, para ello escribimos la *
 Deberá aparecer esta página si funciona correctamente.
   
 ![Séptima captura](./images/7.PNG)
+
+Ahora que ya hemos finalizado la instalación de nuestro servidor debemos configurarlo. 
