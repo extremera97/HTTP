@@ -30,7 +30,7 @@ Ahora que ya tenemos el módulo instalado, lo siguiente que debemos hacer es ins
 
 Una vez termiando el proceso de instalación buscamos Apache en el buscador y pinchamos en él.
   
-![Sexta captura] (./images/6.png)
+![Sexta captura](./images/6.png)
 
 El último paso es comprobar que el servidor funciona, para ello escribimos la *ip del servidor* y el *puerto 80*.
 
