@@ -38,4 +38,18 @@ Deberá aparecer esta página si funciona correctamente.
   
 ![Séptima captura](./images/7.PNG)
 
-Ahora que ya hemos finalizado la instalación de nuestro servidor debemos configurarlo. 
+Ahora que ya hemos finalizado la instalación de nuestro servidor debemos configurarlo. Normalmente accedemos a sitios web por [nombres DNS](https://es.ryte.com/wiki/Sistema_de_Nombres_de_Dominio_(DNS), por lo que lo primero que debemos hacer es elegir el nombre DNS que utilizaremos como URL.
+
+Lo siguiente que debemos hacer es discriminar el nuevo sitio, y se puede hacer de tres formas:
+
+* Por puerto:
+
+Primero debemos poner el puerto 8000 ya que es el puerto por defecto de Apache.
+NOTA IMPORTANTE PONER CAPTURA 1
+
+* Por URL:
+
+
+
+* Por IP:
+
