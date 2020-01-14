@@ -1,5 +1,5 @@
-## Práctica 1. ¿Qué es un servidor web?
-### Responde con tus propias palabras las siguientes preguntas:
+## Práctica 1. Nociones básicas del HTTP
+### Realiza este cuestionario del protocolo HTTP
 
 1. ¿Qué es un servidor web? ¿Cómo funciona?
 1. ¿En qué capa del modelo OSI trabaja un servidor web?
