@@ -1,9 +1,10 @@
-# HTTP
-## ¿Qué es un servidor web?
+# HTTP (Protocolo de transferencia de hipertexto)
 
-[Presentación conceptos teoricos](https://extremera97.github.io/HTTP//presentacion.html)
+Es un protocolo de tranferencia basado en un esquema entre la petición de un cliente y la respuesta de un servidor. El cliente manda una petición con un determinado formato al servidor y este le envía una respuesta.
 
-[A1.¿Qué es un servidor web?](./HTTP1/Queesunservidorweb.md)
+Para empezar, vamos a realizar un cuestionario en el que, mediante preguntas de respuesta corta vamos a adquirir las nociones básicas del protocolo HTTP.
+
+[A1.¿?](./HTTP1/Queesunservidorweb.md)
 
 ## Como instalar un servidor web.
 
