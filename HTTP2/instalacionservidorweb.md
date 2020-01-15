@@ -24,6 +24,8 @@ Ahora solo debemos instalar el módulo.
 
 ![Cuarta captura](./images/4.PNG)
 
+Nota:Aquí falta un paso
+
 Ahora que ya tenemos el módulo instalado, lo siguiente que debemos hacer es instalar el paquete Apache. Para ello debemos ir al apartado *Un-used Modules*, pulsar sobre *Servidor Web Apache* y por último donde pone "Pulse aquí".
   
 ![Quinta captura](./images/5.png)
