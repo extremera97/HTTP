@@ -6,49 +6,26 @@ Para instalarlo vamos a utilizar la herramienta [Webmin](http://www.webmin.com/)
 
 Ahora que ya hemos preparado el entorno de trabajo, vamos a empezar a isntalar el servidor Apache.
 
-1. El primer paso es Acceder a los **Módulos de Webmin**.
+1. El primer paso es acceder a **Webmin** y dentro de esa pestaña pinchamos en *Configuración de Webmin*
   
-![Primera captura](./images/1.PNG)
+![Primera captura](./images/uno.PNG)
 
-2. Al clicar, nos aparece una pantalla que pregunta dónde queremos instalar el módulo. Nosotros elegiremos la opción de instalarlo desde un módulo estándar de www.webmin.com.
+2. Nos aparecerá un menú con diferentes opciones, nosotros utilizaremos *Módulos de Webmin*.
 
-Luego pinchamos en el icono que hay señalado en la imagen a continuación.
-  
-![Segunda captura](./images/2.PNG)
+![Segunda captura](./images/dos.PNG)
 
-3. Al clicar se mostrará una ventana con todos los módulos que podemos descargar, seleccionamos **Apache** y después pinchamos en **Select**.
-
-![Tercera captura](./images/3.PNG)
-
-4. Ahora solo debemos instalar el módulo.
-
-![Cuarta captura](./images/4.PNG)
-
-5. Ahora que ya tenemos el módulo instalado, lo siguiente que debemos hacer es instalar el paquete Apache. Para ello debemos ir al apartado *Un-used Modules*, pulsar sobre *Servidor Web Apache* y por último donde pone "Pulse aquí". **ESTO HAY QUE CAMBIARLO**
-  
-![Quinta captura](./images/5.png)
-
-6. Una vez termiando el proceso de instalación buscamos Apache en el buscador y pinchamos en él.
-  
-![Sexta captura](./images/6.png)
-
-7. El último paso es comprobar que el servidor funciona, para ello escribimos la *ip del servidor* y el *puerto 80*.
-
-Deberá aparecer esta página si funciona correctamente.
-  
-![Séptima captura](./images/7.PNG)
-
-Ahora que ya hemos finalizado la instalación de nuestro servidor debemos configurarlo. Normalmente accedemos a sitios web por [nombres DNS](https://es.ryte.com/wiki/Sistema_de_Nombres_de_Dominio_(DNS)) , por lo que lo primero que debemos hacer es elegir el nombre DNS que utilizaremos como URL.
-
-Lo siguiente que debemos hacer es discriminar el nuevo sitio, y se puede hacer de tres formas:
-* Por puerto:
-
-Primero debemos poner el puerto 8000 ya que es el puerto por defecto de Apache.
-**NOTA IMPORTANTE PONER CAPTURA 1
-
-* Por URL:
+3. Ahora tenemos que elegir desde donde queremos instalarlo. Por defecto está seleccionada la opción *Desde archivo local* pero nosotros utilizaremos el *Módulo estándar de www.webmin.com* y pulsando en el icono señalado en la imagen a continuación elegiremos el módulo Apache.
 
 
+![Tercera captura](./images/tres.PNG)
 
-* Por IP:
+4. En la barra de buscador buscamos *Apache*, lo seleccionamos y clicamos en Select.
+
+![Cuarta captura](./images/cuatro.PNG)
+
+5. Ahora solo debemos clicar en Instalar módulo.
+
+![Quinta captura]
+
+6. Una vez que le hemos dado nos aparece un proceso de descarga e instalación
 
