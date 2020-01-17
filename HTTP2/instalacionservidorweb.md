@@ -25,7 +25,16 @@ Ahora que ya hemos preparado el entorno de trabajo, vamos a empezar a isntalar e
 
 5. Ahora solo debemos clicar en Instalar módulo.
 
-![Quinta captura]
+![Quinta captura](./images/cinco.PNG)
 
-6. Una vez que le hemos dado nos aparece un proceso de descarga e instalación
+6. Una vez que le hemos dado nos aparece un proceso de descarga e instalación.
 
+![Sexta captura](./images/seis.PNG)
+
+7. El último paso de la instalación es comprobar que realmente el servidor está funcionando. Para ello, escribiremos nuestra dirección IP seguida de dos puntos y 80 en la barra de direcciones. Por ejemplo: 10.0.2.15:80.
+
+Si funciona correctamente, debería aparecer la página por defecto del servidor web Apache.
+
+![Séptima captura](./images/7.PNG)
+
+Ahora que ya tenemos nuestro servidor Apache instalado es necesario configurarlo. 
