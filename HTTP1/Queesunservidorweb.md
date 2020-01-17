@@ -12,7 +12,7 @@
   
  -Protocolo de transferencia.
   
-1. ¿Cuándo se creo el protocolo HTTP?
+2. ¿Cuándo se creó el protocolo HTTP?
 
  -En 1993
  
@@ -23,7 +23,7 @@
  -En 1980.
  
   
-1. ¿Qué puerto utiliza?
+3. ¿Qué puerto utiliza?
 
  -El 80.
  
@@ -33,7 +33,7 @@
  
  -El 800.
 
-1. ¿Cuáles son los servidores más utilizados hoy en día?
+4. ¿Cuáles son los servidores más utilizados hoy en día?
   
  -Apache. 
  
@@ -43,4 +43,14 @@
  
  -Nginx.
 
-1. ¿?
+5. ¿Puede un equipo contener diferentes sitios web?
+
+ -No, solamente puedo tener uno.
+ 
+ -Sí, solo cuando sus IP o URL sean distintas.
+ 
+ -Sí, siempre que sus IP, URL y puerto sean distintos.
+ 
+ -Sí, se pueden tener hasta tres sitios virtuales siempre que sus IP, URL y puerto sean distintos.
+ 
+6. 
