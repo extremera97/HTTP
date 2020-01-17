@@ -6,8 +6,10 @@ Es un protocolo de tranferencia basado en un esquema entre la petición de un cl
 
 Para empezar, vamos a realizar un cuestionario en el que, mediante preguntas de respuesta corta vamos a adquirir las nociones básicas del protocolo HTTP.
 
-[A1.¿?](./HTTP1/Queesunservidorweb.md)
+[A1. Servidores web, ](./HTTP1/Queesunservidorweb.md)
 
 ## Como instalar un servidor web.
+
+Ahora que ya sabemos que es un servidor web y como funciona, podemos realizar la actividad de instalación del servidor web Apache.
 
 [A2.Instalación servidor web.](./HTTP2/instalacionservidorweb.md)
