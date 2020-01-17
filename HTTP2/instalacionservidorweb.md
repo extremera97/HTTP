@@ -37,4 +37,4 @@ Si funciona correctamente, debería aparecer la página por defecto del servidor
 
 ![Séptima captura](./images/7.PNG)
 
-Ahora que ya tenemos nuestro servidor Apache instalado es necesario configurarlo. 
+Ahora que ya tenemos nuestro servidor Apache instalado 
