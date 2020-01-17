@@ -37,4 +37,20 @@ Si funciona correctamente, debería aparecer la página por defecto del servidor
 
 ![Séptima captura](./images/7.PNG)
 
-Ahora que ya tenemos nuestro servidor Apache instalado 
+Ahora que ya tenemos nuestro servidor Apache instalado, vamos a crear un servidor web virtu
+
+1. Una vez que ya hemos creado el nombre DNS, desde **Servidores** accedemos al *Servidor Web Apche*.
+
+![Octava captura](./images/ocho.PNG)
+
+2. Nos vamos al apartado de Create virtual host, en el que rellenaremos los campos seleccionados en la imagen. Para este paso deberás crear un directorio con el nombre del nombre DNS en el directorio raíz.
+
+![Novena captura](./images/siete.PNG)
+
+Recuerda que la dirección debe ser "www.servidorTUSINICIALES.com".
+
+El puerto será el 8000 por que es el que utiliza Apache por defecto.
+
+
+
+
