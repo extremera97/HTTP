@@ -58,11 +58,9 @@ El puerto será el 80 por que es el que utiliza Apache por defecto.
 
 3. Ahora en vez de aparecernos la página por defecto de Apache nos aparece el documento html creado en el paso anterior. Recuerda que para acceder a él debes hacerlo con tu IP seguido de dos puntos y el puerto 80.
 
-![nueve](./images/nueve.PNG)
-
 Una vez que ya hemos llegado a este punto, debemos discriminar nuestro servidor virtual. Puede hacerse de tres formas distinas:
 
-* Por puerto. Lo primero que debemos hacer es crear un nuevo directorio en la carpeta de nuestro servidor que se llamara *puertos* y dentro de ella crearemos otro fichero html con la siguiente estructura:
+* Por puerto. Lo primero que debemos hacer es crear un nuevo directorio en la carpeta de nuestro servidor que se llamara *puertos* y dentro de ella crearemos otro fichero html que se llame **index.html**con la siguiente estructura:
 
 ![puertoshtml](./images/puertoshtml.PNG)
 
@@ -80,3 +78,15 @@ En la barra desplegable superior elegimos el archivo */etc/apache2/ports.conf*.
 Añadimos Listen NUMERODEPUERTO.
 
 ![porpuerto3](./images/porpuerto3.PNG)
+
+Para combrobar que funciona debemos aplicar los cambios y acceder con la dirección IP de nuestro servidor seguido de dos puntos y el puerto por que hemos elegido para discriminar.
+
+* Por IP. Debemos volver a crear una carpeta especifica que se llame *ip* y un archivo html que se llame **index.html**con la siguiente esctructura:
+
+![htmlip](./images/htmlip.PNG)
+
+Ahora que ya tenemos el archivo creado tenemos que crear el nuevo sitio virtual. Para ello rellenaremos la casilla Dirección específica con una dirección IP que esté dentro de nuestro rango.
+
+![porip](./images/porip.PNG)
+
+Para comprobar que funciona tenemos que aplicar los cambios y acceder poniendo la dirección IP con la que hemos asignado.
