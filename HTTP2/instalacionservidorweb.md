@@ -45,12 +45,19 @@ Ahora que ya tenemos nuestro servidor Apache instalado, vamos a crear un servido
 
 ![Octava captura](./images/ocho.PNG)
 
-2. Nos vamos al apartado de Create virtual host, en el que rellenaremos los campos seleccionados en la imagen. Para este paso deberás crear un directorio con el nombre del nombre DNS en el directorio raíz.
+2. Nos vamos al apartado de Create virtual host, en el que rellenaremos los campos seleccionados en la imagen. Para este paso deberás crear un directorio con el nombre del nombre DNS en el directorio raíz y un documento html con la siguiente estructura:
+
+![HTML](./images/html.PNG)
+
+Recuerda que la dirección debe ser "servidorTUSINICIALES.com".
+
+El puerto será el 80 por que es el que utiliza Apache por defecto.
 
 ![Novena captura](./images/siete.PNG)
 
-Recuerda que la dirección debe ser "www.servidorTUSINICIALES.com".
 
-El puerto será el 8000 por que es el que utiliza Apache por defecto.
+3. Ahora en vez de aparecernos la página por defecto de Apache nos aparece el documento html creado en el paso anterior. Recuerda que para acceder a él debes hacerlo con tu IP seguido de dos puntos y el puerto 80.
 
-3
+![nueve](./images/nueve.PNG)
+
+
