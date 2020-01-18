@@ -2,7 +2,9 @@
 
 Para instalar el servidor web vamos a trabajar con una máquina virtual desde Oracle VM VirtualBox. [Aquí](https://www.virtualbox.org/) encontrarás qué es VirtualBox, como descargarlo y como funciona. El sistema operativo que hemos elegido para instalarlo es Ubuntu 18.04 que encontrarás en el siguiente [enlace](http://cdimage.ubuntu.com/netboot/18.04/).
 
-Para instalarlo vamos a utilizar la herramienta [Webmin](http://www.webmin.com/), que nos permite administrar el sistema desde un navegador. [Aquí](https://www.solvetic.com/tutoriales/article/5427-como-instalar-webmin-en-ubuntu-18-04/) una guía de como instalarlo.
+[Aquí](https://www.youtube.com/watch?v=VTGDqFZ81JY&list=PL9oB7UFHn_bQICy3WlzK6IwQMx4HBoe_Y&index=1) una guía de como instalar el sistema operativo en VirtualBox con las tarjetas de red necesarias para realizar la práctica. 
+
+Para instalarlo vamos a utilizar la herramienta [Webmin](http://www.webmin.com/), que nos permite administrar el sistema desde un navegador. En este [enlace](https://www.youtube.com/watch?v=2143l30jiow&list=PL9oB7UFHn_bQICy3WlzK6IwQMx4HBoe_Y&index=2) encontrarás una guía de como instalar Webmin y aplicar la configuración de tarjetas de red.
 
 Ahora que ya hemos preparado el entorno de trabajo, vamos a empezar a isntalar el servidor Apache.
 
@@ -37,7 +39,7 @@ Si funciona correctamente, debería aparecer la página por defecto del servidor
 
 ![Séptima captura](./images/7.PNG)
 
-Ahora que ya tenemos nuestro servidor Apache instalado, vamos a crear un servidor web virtu
+Ahora que ya tenemos nuestro servidor Apache instalado, vamos a crear un servidor web virtual. Pero para ello neccesitamos configurar un nombre DNS, [aquí](https://9alexx3.github.io/Configuracion-DNS/) tenemos una guía de como hacerlo.
 
 1. Una vez que ya hemos creado el nombre DNS, desde **Servidores** accedemos al *Servidor Web Apche*.
 
@@ -51,6 +53,7 @@ Recuerda que la dirección debe ser "www.servidorTUSINICIALES.com".
 
 El puerto será el 8000 por que es el que utiliza Apache por defecto.
 
+3
 
 
 
