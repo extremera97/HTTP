@@ -53,11 +53,30 @@ Recuerda que la dirección debe ser "servidorTUSINICIALES.com".
 
 El puerto será el 80 por que es el que utiliza Apache por defecto.
 
-![Novena captura](./images/siete.PNG)
+![Novena captura](./images/sindiscriminar.PNG)
 
 
 3. Ahora en vez de aparecernos la página por defecto de Apache nos aparece el documento html creado en el paso anterior. Recuerda que para acceder a él debes hacerlo con tu IP seguido de dos puntos y el puerto 80.
 
 ![nueve](./images/nueve.PNG)
 
+Una vez que ya hemos llegado a este punto, debemos discriminar nuestro servidor virtual. Puede hacerse de tres formas distinas:
 
+* Por puerto. Lo primero que debemos hacer es crear un nuevo directorio en la carpeta de nuestro servidor que se llamara *puertos* y dentro de ella crearemos otro fichero html con la siguiente estructura:
+
+![puertoshtml](./images/puertoshtml.PNG)
+
+Ahora solo debemos crear un nuevo sitio virtual, en el que en el apartado de Puerto escribimos el puerto por el que queremos discriminar y en Raiz para Documentos seleccionamos la carpeta que hemos creado.
+
+![porpuerto](./images/porpuerto.PNG)
+
+Así como está configurado el puerto que hemos elegido no funcionará porque nuestro servidor no sabe que debe escuchar el puerto hemos puesto. 
+
+Para que lo escuche debemos ir a la configuración global del servidor Apache y elegimos la opción Editar Archivos de Configuración. 
+
+![porpuerto2](./images/porpuerto2.PNG)
+
+En la barra desplegable superior elegimos el archivo */etc/apache2/ports.conf*.
+Añadimos Listen NUMERODEPUERTO.
+
+![porpuerto3](./images/porpuerto3.PNG)
