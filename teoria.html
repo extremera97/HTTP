@@ -24,127 +24,132 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section data-markdown>
-<textarea data-template>
-### Protocolo HTTP.
-En esta serie de diapositivas encontrarás todo lo que necesitas saber sobre él.
-</textarea>
-</section>
-<section>
-<section data-markdown>
-<textarea data-template>
-### ¿Qué es?
-HTTP (Protocolo de Transferencia de Hipertexto) es uno de los protocolos de Internet más utilizados desde su invención en los años 1989-1991.
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-## ¿Problemas de seguridad?
-HTTP trabaja con texto plano, ¿qué quiere decir esto? Significa que no tiene formato, cualquiera puede leer lo que ponga, tanto contraseñas como tarjetas bancarias.
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-## Aparición de HTTPS
-A causa de ese problema surgió HTTPS, que funciona prácticamente igual que el HTTP, pero impide que que la información puede ser interceptada mediante el uso de un cifrado.
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-## Dato curioso
-Tanto HTTP y HTTPS forman parte de la URL, ¿sabías que la forma más común de empezar un URL es con "www"? ¿Sabes que significan sus siglas?
-Por si la respuesta fuera no, significa World Wide Web, que traducido del inglés es red informática mundial.
-</textarea>
-</section>
-</section>
-<section data-markdown>
-<textarea data-template>
-## ¿Cómo funciona?
-Este protocolo funciona cuando un cliente, nosotros mismos al acceder a cualquier página web, le envía una petición al servidor y este devuelve la página web.
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-El protocolo HTTP utiliza el puerto 80 como puerto por defecto.
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-Es un protocolo que funciona en la capa de Aplicación del Modelo OSI.
-</textarea>
-</section>
-<section>
-<section data-markdown>
-<textarea data-template>
-### Los comandos que más se suelen utilizar con el protocolo HTTP son:
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-## GET
-Se utiliza para descargar recursos especificados. 
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-## PUT
-Se utiliza para subir o cargar recursos especificados.
-</textarea>
-</section>
-<section>
-<section data-markdown>
-<textarea data-template>
-Cuando navegamos en internet muchas veces nos aparecen distintos mensajes al intentar entrar a páginas web, ¿sabías que hay un código para clasificarlos?
-Los que más conocemos nosotros, como usuarios, son estos dos:
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-El que empieza por 4 nos indica que ha habido un error en el proceso de la petición por algo que el cliente ha hecho mal.
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-Cuando empieza por 5 nos indica que es un fallo causado por el servidor.
-</textarea>
-</section>
-</section>
-<section>
-<section data-markdown>
-<textarea data-template>
-### Hemos estado hablando de servidores web, pero... ¿Qué es un servidor web?
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-Vamos a empezar definiendo un servidor, un servidor es un ordenador que con sus debidos programas se dedica a ofrecer servicios a otros ordenadores (o télefonos móviles, impresoras, tablets, etc.).
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-Ahora, un servidor web es aquel servidor que guarda todos los archivos de una página web. Al nosotros clicar una página el servidor le dice a nuestro navegador donde va cada cosa y en que orden deben aparecer, ya sean imágenes, texto, vídeo o cualquier otro formato.
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-Como podrás imaginar, hay mucho servidores (incluso Google tiene uno propio, Googlel Web Server) pero los más utilizados son Apache y Nginx.
-</section>
-</section>
-<section>
-<section data-markdown>
-<textarea data-template>
-### ¿Cómo puedo tener mi propio servidor web?
-</textarea>
-</section>
-<section data-markdown>
-<textarea data-template>
-Para la segunda práctica utilizaremos una herramienta muy potente llamada Webmin, en ella podremos configurar nuestro propio servidor Apache en un entorno gráfico de manera fácil.
-</section>
-<section data-markdown>
-<textarea data-template>
-Desde un mismo servidor se pueden crear muchos sitios virtuales, pero su URL, IP y puerto no deben coincidir.
-</section>
-</section>
+
+	<section data-markdown>
+		<textarea data-template>
+			### Protocolo HTTP.
+			En esta serie de diapositivas encontrarás todo lo que necesitas saber sobre él.
+		</textarea>
+	</section>
+	<section>
+		<section data-markdown>
+			<textarea data-template>
+				### ¿Qué es?
+				HTTP (Protocolo de Transferencia de Hipertexto) es uno de los protocolos de Internet más utilizados desde su invención en los años 1989-1991.
+			</textarea>
+		</section>
+			<section data-markdown>
+				<textarea data-template>
+					## ¿Problemas de seguridad?
+					HTTP trabaja con texto plano, ¿qué quiere decir esto? Significa que no tiene formato, cualquiera puede leer lo que ponga, tanto contraseñas como tarjetas bancarias.
+				</textarea>
+			</section>
+				<section data-markdown>
+					<textarea data-template>
+						## Aparición de HTTPS
+						A causa de ese problema surgió HTTPS, que funciona prácticamente igual que el HTTP, pero impide que que la información puede ser interceptada mediante el uso de un cifrado.
+					</textarea>
+				</section>
+					<section data-markdown>
+						<textarea data-template>
+							## Dato curioso
+							Tanto HTTP y HTTPS forman parte de la URL, ¿sabías que la forma más común de empezar un URL es con "www"? ¿Sabes que significan sus siglas?
+							Por si la respuesta fuera no, significa World Wide Web, que traducido del inglés es red informática mundial.
+						</textarea>
+					</section>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+			## ¿Cómo funciona?
+			Este protocolo funciona cuando un cliente, nosotros mismos al acceder a cualquier página web, le envía una petición al servidor y este devuelve la página web.
+		</textarea>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+			El protocolo HTTP utiliza el puerto 80 como puerto por defecto.
+		</textarea>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+			Es un protocolo que funciona en la capa de Aplicación del Modelo OSI.
+		</textarea>
+	</section>
+	<section>
+		<section data-markdown>
+			<textarea data-template>
+				### Los comandos que más se suelen utilizar con el protocolo HTTP son:
+			</textarea>
+		</section>
+			<section data-markdown>
+				<textarea data-template>
+					## GET
+					Se utiliza para descargar recursos especificados. 
+				</textarea>
+			</section>
+				<section data-markdown>
+					<textarea data-template>
+						## PUT
+						Se utiliza para subir o cargar recursos especificados.
+					</textarea>
+				</section>
+	</section>
+	<section>
+		<section data-markdown>
+			<textarea data-template>
+					Cuando navegamos en internet muchas veces nos aparecen distintos mensajes al intentar entrar a páginas web, ¿sabías que hay un código para clasificarlos?
+					Los que más conocemos nosotros, como usuarios, son estos dos:
+			</textarea>
+		</section>
+				<section data-markdown>
+					<textarea data-template>
+						El que empieza por 4 nos indica que ha habido un error en el proceso de la petición por algo que el cliente ha hecho mal.
+					</textarea>
+				</section>
+					<section data-markdown>
+						<textarea data-template>
+							Cuando empieza por 5 nos indica que es un fallo causado por el servidor.
+						</textarea>
+					</section>
+	</section>
+	<section>
+		<section data-markdown>
+			<textarea data-template>
+				### Hemos estado hablando de servidores web, pero... ¿Qué es un servidor web?
+			</textarea>
+		</section>
+			<section data-markdown>
+				<textarea data-template>
+					Vamos a empezar definiendo un servidor, un servidor es un ordenador que con sus debidos programas se dedica a ofrecer servicios a otros ordenadores (o télefonos móviles, impresoras, tablets, etc.).
+				</textarea>
+			</section>
+				<section data-markdown>
+					<textarea data-template>
+						Ahora, un servidor web es aquel servidor que guarda todos los archivos de una página web. Al nosotros clicar una página el servidor le dice a nuestro navegador donde va cada cosa y en que orden deben aparecer, ya sean imágenes, texto, vídeo o cualquier otro formato.
+					</textarea>
+				</section>
+					<section data-markdown>
+						<textarea data-template>
+							Como podrás imaginar, hay mucho servidores (incluso Google tiene uno propio, Googlel Web Server) pero los más utilizados son Apache y Nginx.
+						</textarea>	
+					</section>
+	</section>
+	<section>
+		<section data-markdown>
+			<textarea data-template>
+				### ¿Cómo puedo tener mi propio servidor web?
+			</textarea>
+		</section>
+			<section data-markdown>
+				<textarea data-template>
+					Para la segunda práctica utilizaremos una herramienta muy potente llamada Webmin, en ella podremos configurar nuestro propio servidor Apache en un entorno gráfico de manera fácil.
+				</textarea>
+			</section>
+				<section data-markdown>
+					<textarea data-template>
+						Desde un mismo servidor se pueden crear muchos sitios virtuales, pero su URL, IP y puerto no deben coincidir.
+					</textarea>
+				</section>
+	</section>
 	
 </div>
 </div>
