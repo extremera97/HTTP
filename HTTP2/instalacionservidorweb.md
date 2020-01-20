@@ -72,7 +72,7 @@ Así como está configurado el puerto que hemos elegido no funcionará porque nu
 
 Para que lo escuche debemos ir a la configuración global del servidor Apache y elegimos la opción Editar Archivos de Configuración. 
 
-![porpuerto2](./images/porpuerto2.PNG)
+![porpuerto2](./images/porpuerto02.PNG)
 
 En la barra desplegable superior elegimos el archivo */etc/apache2/ports.conf*.
 Añadimos Listen NUMERODEPUERTO.
