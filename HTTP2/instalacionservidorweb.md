@@ -39,7 +39,7 @@ Si funciona correctamente, debería aparecer la página por defecto del servidor
 
 ![Séptima captura](./images/7.PNG)
 
-Ahora que ya tenemos nuestro servidor Apache instalado, vamos a crear un servidor web virtual. Pero para ello neccesitamos configurar un nombre DNS, [aquí](https://www.youtube.com/watch?v=zavT_BAir-4&list=PL9oB7UFHn_bQICy3WlzK6IwQMx4HBoe_Y&index=7/) tenemos una guía de como hacerlo.
+Ahora que ya tenemos nuestro servidor Apache instalado, vamos a crear un servidor web virtual para poder discriminarlo. Pero para ello neccesitamos configurar un nombre DNS, [aquí](https://www.youtube.com/watch?v=zavT_BAir-4&list=PL9oB7UFHn_bQICy3WlzK6IwQMx4HBoe_Y&index=7/) tenemos una guía de como hacerlo.
 
 1. Una vez que ya hemos creado el nombre DNS, desde **Servidores** accedemos al *Servidor Web Apche*.
 
