@@ -92,6 +92,7 @@ Ahora que ya tenemos el archivo creado tenemos que crear el nuevo sitio virtual.
 Para comprobar que funciona tenemos que aplicar los cambios y acceder poniendo la dirección IP con la que hemos asignado.
 
 
+Ahora ya sabemos como instalar nuestro propio servidor web y como crear nuestros propios sitios virtuales.
 
 
 
