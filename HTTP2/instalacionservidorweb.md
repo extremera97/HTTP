@@ -33,7 +33,19 @@ Ahora que ya hemos preparado el entorno de trabajo, vamos a empezar a isntalar e
 
 ![Sexta captura](./images/seis.PNG)
 
-7. El último paso de la instalación es comprobar que realmente el servidor está funcionando. Para ello, escribiremos nuestra dirección IP seguida de dos puntos y 80 en la barra de direcciones. Por ejemplo: 10.0.2.15:80.
+7. Ahora debemos comprobar que todos los paquetes del servidor web Apache se han instalado, para ello desde el buscador buscamos *Apache* y accedemos a él.
+
+![apache1](./images/apache1.PNG)
+
+Ahora solo debemos darle a *Install now*
+
+![apache2](./images/apache2.PNG)
+
+Una vez que le hemos dado nos muestra una lista de los paquetes que se van a instalar y nos pregunta si estamos seguros de querer instalarlo. Clicamos en *Install now* otra vez.
+
+![apache3](./images/apache3.PNG)
+
+8. El último paso de la instalación es comprobar que realmente el servidor está funcionando. Para ello, escribiremos nuestra dirección IP seguida de dos puntos y 80 en la barra de direcciones. Por ejemplo: 10.0.2.15:80.
 
 Si funciona correctamente, debería aparecer la página por defecto del servidor web Apache.
 
