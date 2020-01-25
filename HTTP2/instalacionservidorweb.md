@@ -35,7 +35,7 @@ Ahora que ya hemos preparado el entorno de trabajo, vamos a empezar a isntalar e
 
 7. Ahora debemos comprobar que todos los paquetes del servidor web Apache se han instalado, para ello desde el buscador buscamos *Apache* y accedemos a él.
 
-![apache1](./images/apache1.PNG)
+![apache](./images/apache.PNG)
 
 Ahora solo debemos darle a *Install now*
 
