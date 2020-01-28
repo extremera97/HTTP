@@ -10,8 +10,8 @@ Esta actividad es un Kahoot de 20 preguntas, algunas con cuatro opciones y otras
 
 [A1. El protocolo HTTP y servidores web.](./HTTP1/Queesunservidorweb.md)
 
-## Como instalar y discriminar un servidor web.
+## Como instalar Apache.
 
 Ahora que ya sabemos que es un servidor web y como funciona, podemos realizar la actividad de instalación del servidor web Apache.
 
-[A2.Instalación de un servidor web y creación de sitios virtuales y su discriminación.](./HTTP2/instalacionservidorweb.md)
+[A2.Instalación de Apache.](./HTTP2/instalacionservidorweb.md)
